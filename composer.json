@@ -3,5 +3,10 @@
     "type": "magento2-module",
     "require": {
         "magento/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kassner\\TestAdminObserver\\": ""
+        }
     }
 }
